@@ -1,0 +1,58 @@
+:root {
+  --primary: rgb(51, 102, 255);
+  /* --primary-dark: rgb(209, 0, 105, 1); */
+  --primary-dark: rgb(51, 102, 255);
+  --primary-70: rgba(255, 18, 59, 0.7);
+  --primary-50: rgba(255, 18, 59, 0.5);
+  --primary-30: rgba(255, 18, 59, 0.3);
+  --primary-10: rgba(255, 18, 59, 0.1);
+  --logo: #ff123b;
+  --sidebar-icon: #fff;
+  --secondary: #5C7AFF;
+  --tertiary: #FBAF00;
+  --dark: #292F36;
+  --blue: #5C7AFF;
+  --yellow: #F4E409;
+  --dark-green: #218380;
+  --orange: #FBAF00;
+}
+
+.bg-grad-sidebar {
+background: radial-gradient(circle, rgba(20,26,40,1) 0%, rgba(20,26,40,1) 63%, rgba(6,8,13,1) 100%);
+
+}
+
+    .bg-logo {
+        background-color: transparent !important;
+        background:  transparent !important;
+    }
+
+.bg-gray-100 {
+    --bg-opacity: 1;
+    background-color:#acb3c3;
+    background-color: rgba(238, 241, 243, var(--bg-opacity));
+}
+
+.text-secondary {
+    color:var(--secondary)
+}
+
+.text-primary-bold {
+    color:var(--primary);
+    font-weight: 600;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.current-language-header-icon {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: -2px;
+    left: 20px;
+    border: 2px solid --tertiary;
+    padding: 2px;
+    background: white;
+}

@@ -1,0 +1,61 @@
+
+/* General and site-wide Bootstrap modifications */
+.logo {
+    height: 34px;
+    background: url('https://apigamble.com/images/icon_white.png') no-repeat;
+    object {
+  width: 100%;
+}
+    .svg {
+    display: none !important;
+    opacity: 0 !important;
+    }
+}svg {
+  top: 0;
+  left: 0;    display: none !important;
+
+}
+
+img {
+    display:  none !important;
+}
+
+.row justify-content-center mt-5 {
+         display: none !important;
+
+}
+.h2 mb-3 {
+     display: none !important;
+
+}
+
+#syncModalContent {
+   display: none;
+
+   }
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    display:  none !Important;
+}
+
+.col-lg-8 mx-auto text-center {
+    display:  none !important;
+}
+#services {
+     display: none !important;
+
+}
+        <link rel="icon" type="image/png" href="/img/pug-icon.png">
+
+
+.masthead {
+    display:  none !important;
+}
+
+.footer {
+    display:  none !important;
+}
+.account-form {
+
+        top: 100px;
+    position: absolute;
+}
